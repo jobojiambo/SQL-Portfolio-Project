@@ -1,13 +1,11 @@
-
 --selecting the dataset that is to be used
-
 select location, date, continent, total_cases, new_cases, total_deaths, population 
 from portfolioproject..[Corona_Death$]
 where continent is not null
 order by 1,2
 
+ 
  --Global Numbers
-
 
 --looking at Total Cases vs Population
 --percentage population diagnosed with Covid in Europe
